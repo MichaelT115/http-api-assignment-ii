@@ -1,0 +1,26 @@
+{
+    "name": "http-api-assignment-430",
+    "version": "1.0.0",
+    "description": "430 HTTP API Assignment II",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IGM-Real-Time-at-RIT/http-api-assignment-ii.git"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/IGM-Real-Time-at-RIT/http-api-assignment-ii/issues"
+    },
+    "homepage": "https://github.com/IGM-Real-Time-at-RIT/http-api-assignment-ii#readme",
+    "devDependencies": {
+        "eslint": "^3.15.0",
+        "eslint-config-airbnb": "^14.1.0",
+        "eslint-plugin-import": "^2.2.0"
+    }
+}
